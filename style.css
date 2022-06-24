@@ -1,0 +1,173 @@
+body
+{
+font-family:"copperplane",fantasy;
+}
+
+#menub
+{
+    background-color: gray;
+    float:left;
+    border-radius:5px;
+    padding-top:5px;
+}
+
+#logowanieb
+{
+    border-radius:5px;
+    padding-top:5px;
+    float:left;
+}
+
+#x
+{
+    color: crimson;
+}
+
+.strona
+{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 0.7fr 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 1.5fr 0.1fr 0.1fr;
+    grid-template-areas:
+      "nav nav nav nav"
+      "bok main main main"
+      "bok footer footer footer";
+    grid-gap: 0.2rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #3e14a0;
+    text-align: center;
+}
+
+nav
+{
+    background: #34495e;
+    grid-area: nav;
+    border-radius:5px;
+    padding-top:5px;
+}
+
+main
+{
+
+    background: #b2bec3;
+    grid-area: main;
+    border-radius:5px;
+    padding-top:5px;
+}
+
+#bok
+{
+    background: #74b9ff;
+    grid-area: bok;
+    border-radius:5px;
+    padding-top:5px;
+    font-family:arial;
+}
+
+footer
+{
+    background: #1de9b6;
+    grid-area: footer;
+    border-radius:5px;
+    padding-top:5px;
+    background-color: #05038a;
+    color:white;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 14px;
+}
+
+a 
+{
+    text-align: left;
+    float:left;
+    display: box;
+    font-family: fantasy;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 2rem;
+    font-size:30px;
+    padding:1px 20px;
+    border: 3px solid rgb(255, 255, 255);
+    background-color: #05038a;
+    color:white;
+  }
+  @media only screen and (max-width:550px) 
+  {
+    .strona 
+    {
+        grid-template-columns: 0.7fr 1fr 1fr;
+        grid-template-rows: 0.4fr 0.4fr 2.2fr 0.1fr;
+        grid-template-areas:
+        "nav"
+        "bok"
+        "main"
+        "footer";
+    }
+  }
+
+  #bl
+  {
+    text-align: right;
+    float:right;
+    display: box;
+    font-family: fantasy;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 1rem;
+    font-size:30px;
+    padding: 1px 20px;
+    background-color: #05038a;
+    color:rgb(255, 255, 255);
+    margin:2rem;
+  }
+
+#table1
+{
+    text-align: center;
+    
+}
+#th1
+{
+    text-align:center;
+
+
+}
+#plog0,#plog1,#plog2,#plog3,#plog4,#plog5,#plog6
+{
+    font-family:arial;
+}
+#logo
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+#labe
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+#table,#table2,#table3,#table4,#table5,#table6
+{
+    border:2px solid black;
+    width:45%;
+    height: 20%;
+    margin:25px;
+    float:left;
+}
+#wyszuk
+{
+    font-size: 30px;
+    background-color: #05038a;
+    color:white;
+}
+#ooo
+{
+    border:1px solid black;
+    width: 50%;
+}
